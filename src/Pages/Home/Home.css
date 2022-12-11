@@ -1,0 +1,7 @@
+.boxSection {
+  padding: 25px 20px;
+  border: 1px solid #eee;
+  background: #fff;
+  background: var(--gray-hover-bg-color);
+  margin-bottom: 15px;
+}

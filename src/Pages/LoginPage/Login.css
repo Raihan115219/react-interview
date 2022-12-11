@@ -1,0 +1,83 @@
+.login-form {
+  width: 30%;
+  margin: auto;
+  background: #fff;
+  background: var(--white-bg-color);
+  padding: 20px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 5px -4px grey;
+}
+.login-form .title h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.form_group {
+  margin-bottom: 10px !important;
+  position: relative;
+}
+.form_group label {
+  font-size: 12px;
+  font-weight: 600;
+}
+.form_group input {
+  width: 100%;
+  padding: 10px 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #b8b4b4;
+  font-size: 14px;
+  background: transparent;
+}
+.form_group button {
+  text-transform: capitalize;
+  width: 100%;
+  padding: 10px 15px;
+  background: #9b1fe9;
+  background: var(--primary-bg);
+  color: #fff;
+  color: var(--white-text-color);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px !important;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 600;
+}
+/* login footer */
+.login-footer {
+  margin-top: 20px !important;
+}
+.login-footer p {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+}
+.login-social {
+  margin-top: 20px !important;
+  text-align: center;
+}
+.login-social .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+.socialIcon {
+  margin: 10px;
+  font-size: 18px;
+}
+/* RESPONSIVE */
+@media screen and (max-width: 600px) {
+  .login-form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .login-form {
+    width: 70%;
+  }
+}

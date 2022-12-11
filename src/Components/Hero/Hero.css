@@ -1,0 +1,17 @@
+.content_title {
+  margin: 48px 0;
+}
+.content_title h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #9b1fe9;
+  color: var(--primary-bg);
+  margin-bottom: 20px !important;
+}
+.content_title p {
+  font-size: 16px;
+  color: #6d7380;
+  color: var(--gray-white-text-color);
+  width: 680px;
+  line-height: 25px;
+}
