@@ -4,7 +4,7 @@ function Notice() {
   return (
     <div>
       <section className="notice">
-        <h4>Notice</h4>
+        <p>Notice here</p>
       </section>
     </div>
   );
