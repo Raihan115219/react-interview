@@ -18,73 +18,53 @@
   align-items: center;
   justify-content: space-around;
 }
-/* sing login and faq  */
-.userPart {
-  font-size: 16px;
-  border: 1px solid #ddd;
-  padding: 1px 12px;
-  border-radius: 3px;
-  color: #6d7380;
-  color: var(--gray-white-text-color);
-  cursor: pointer;
-  -webkit-user-select: none;
-  user-select: none;
+
+/* wallet */
+.walletIcon {
+  color: #9b1fe9;
 }
+
+/* wallet seleticon */
+.connectWallet {
+  border: 2px solid blueviolet;
+  color: #9b1fe9;
+}
+.connectWallet:hover {
+  border: 2px solid blueviolet;
+}
+/* ethe rume coin selectio bbuton */
+.coinBtn {
+  border: 2px solid gray;
+}
+.coinBtn:hover {
+  border: 2px solid gray;
+}
+
 /* user icon */
-.icon {
+
+.userIcon {
   border: 1px solid #eee;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background-color: #eee;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   color: #000;
-  padding: 10px;
+  padding: 5px;
   box-shadow: 0 4px 10px -9px #6d7380;
   box-shadow: 0 4px 10px -9px var(--gray-white-text-color);
   cursor: pointer;
 }
-/* wallet */
-.walletIcon {
-  color: #9b1fe9;
+
+/*  */
+/* RESPONSIVE */
+@media screen and (max-width: 600px) {
+  .coinName {
+    display: none;
+  }
 }
-/* userCon */
-.userIcon {
-  font-size: 25px;
-  margin-left: 15px;
-}
-/* eherum ebutton content */
-.etherume {
-  font-size: 8px;
-  border: 1px solid #ddd;
-  padding: 3px 12px;
-  border-radius: 3px;
-  color: #6d7380;
-  color: var(--gray-white-text-color);
-  cursor: pointer;
-  -webkit-user-select: none;
-  user-select: none;
-}
-/* wallet seleticon */
-.waletConnect {
-  display: flex;
-  align-items: center;
-  text-transform: capitalize;
-  background: transparent;
-  border: 2px solid #9b1fe9;
-  border: 2px solid var(--primary-text-color);
-  padding: 9px 20px;
-  border-radius: 3px;
-  font-size: 12px;
-  color: #9b1fe9;
-  color: var(--primary-text-color);
-  font-weight: 600;
-  cursor: pointer;
-  justify-content: center;
-  gap: 5px;
-}
-.toggle {
-  outline: none !important;
+@media screen and (max-width: 1024px) {
+  .coinName {
+    display: none;
+  }
 }
